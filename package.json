@@ -1,0 +1,15 @@
+{
+  "name": "chacha20",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "chacha20_bg.wasm",
+    "chacha20.js",
+    "chacha20.d.ts"
+  ],
+  "main": "chacha20.js",
+  "types": "chacha20.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
